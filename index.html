@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History of Haiti — Ayiti: Land of High Mountains</title>
+  <meta name="description" content="A comprehensive history of Haiti from pre-Columbian times to present — the only nation born from a successful slave revolt." />
+  <meta name="keywords" content="Haiti, Haitian history, Haitian Revolution, Toussaint Louverture, Dessalines, Saint-Domingue, Duvalier, 2010 earthquake" />
+  <meta property="og:title" content="History of Haiti — Ayiti: Land of High Mountains" />
+  <meta property="og:description" content="A comprehensive history of Haiti from pre-Columbian times to the present day." />
+  <meta property="og:url" content="https://haiti.thealpha-secret.xyz" />
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇭🇹</text></svg>">
+  <style>
+    :root {
+      --haiti-blue: #00209f;
+      --haiti-red: #d21034;
+      --cream: #f5f0e8;
+      --navy: #0a1628;
+      --text: #2c2c2c;
+      --text-light: #666;
+      --border: #ddd;
+      --gold: #c9a84c;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: #fafaf7;
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    /* ── Flag Banner ── */
+    .flag-banner {
+      height: 6px;
+      background: linear-gradient(to right, var(--haiti-blue) 0%, var(--haiti-blue) 50%, var(--haiti-red) 50%, var(--haiti-red) 100%);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+
+    /* ── Header ── */
+    .header {
+      text-align: center;
+      padding: 60px 0 40px;
+      border-bottom: 2px solid var(--haiti-blue);
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      color: var(--haiti-blue);
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    .header .subtitle {
+      font-size: 18px;
+      color: var(--text-light);
+      font-style: italic;
+      margin-bottom: 4px;
+    }
+
+    .header .tagline {
+      font-size: 14px;
+      color: var(--text-light);
+      margin-top: 12px;
+    }
+
+    .header .tagline em {
+      color: var(--haiti-red);
+    }
+
+    .header .flag-emblem {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    /* ── Sections ── */
+    section {
+      margin: 48px 0;
+    }
+
+    h2 {
+      font-size: 26px;
+      color: var(--haiti-blue);
+      border-left: 4px solid var(--haiti-red);
+      padding-left: 16px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 18px;
+      color: #444;
+      margin: 24px 0 12px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 16px;
+      line-height: 1.9;
+    }
+
+    .era-dates {
+      font-size: 14px;
+      color: var(--text-light);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin-bottom: 16px;
+    }
+
+    /* ── Highlight Boxes ── */
+    .highlight-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--haiti-red);
+      border-radius: 6px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+
+    .highlight-box.blue {
+      border-left-color: var(--haiti-blue);
+    }
+
+    .highlight-box.gold {
+      border-left-color: var(--gold);
+    }
+
+    .highlight-box .quote {
+      font-style: italic;
+      font-size: 17px;
+      line-height: 1.7;
+      color: #555;
+    }
+
+    .highlight-box .attribution {
+      text-align: right;
+      margin-top: 8px;
+      font-size: 14px;
+      color: var(--text-light);
+    }
+
+    /* ── Tables ── */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 15px;
+    }
+
+    .data-table th {
+      background: var(--haiti-blue);
+      color: white;
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .data-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .data-table tr:nth-child(even) td {
+      background: #f8f8f6;
+    }
+
+    /* ── Timeline ── */
+    .timeline {
+      list-style: none;
+      padding: 0;
+      margin: 24px 0;
+    }
+
+    .timeline li {
+      padding: 8px 0 8px 24px;
+      border-left: 2px solid var(--haiti-red);
+      margin-bottom: 4px;
+      position: relative;
+    }
+
+    .timeline li::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 14px;
+      width: 10px;
+      height: 10px;
+      background: var(--haiti-blue);
+      border-radius: 50%;
+    }
+
+    .timeline li .year {
+      font-weight: 700;
+      color: var(--haiti-red);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    /* ── Stats Grid ── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 24px 0;
+    }
+
+    @media (max-width: 600px) {
+      .stats-grid { grid-template-columns: 1fr; }
+    }
+
+    .stat-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 16px;
+    }
+
+    .stat-card .label {
+      font-size: 12px;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .stat-card .value {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--haiti-blue);
+      margin-top: 4px;
+    }
+
+    /* ── Image placeholder ── */
+    .img-frame {
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .img-frame .map-svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-light);
+    }
+
+    .footer strong {
+      color: var(--haiti-red);
+    }
+
+    /* ── Nav ── */
+    .toc {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+
+    .toc h3 {
+      margin-top: 0;
+      color: var(--haiti-blue);
+    }
+
+    .toc ol {
+      padding-left: 24px;
+    }
+
+    .toc li {
+      margin-bottom: 6px;
+    }
+
+    .toc a {
+      color: var(--haiti-blue);
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
+      color: var(--haiti-red);
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 40px 16px 60px; }
+      .header h1 { font-size: 26px; }
+      h2 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+<div class="flag-banner"></div>
+
+<div class="container">
+
+  <!-- ═══ HEADER ═══ -->
+  <div class="header">
+    <div class="flag-emblem">🇭🇹</div>
+    <h1>History of Haiti</h1>
+    <div class="subtitle">Ayiti — Land of High Mountains</div>
+    <div class="tagline">
+      From the <em>first free Black republic</em> to the only nation born from a <em>successful slave revolt</em>
+    </div>
+  </div>
+
+  <!-- ═══ TABLE OF CONTENTS ═══ -->
+  <div class="toc">
+    <h3>Contents</h3>
+    <ol>
+      <li><a href="#precolumbian">Pre-Columbian Era</a></li>
+      <li><a href="#spanish">Spanish Colonial Period</a></li>
+      <li><a href="#french">French Saint-Domingue</a></li>
+      <li><a href="#revolution">The Haitian Revolution</a></li>
+      <li><a href="#independence">Independent Haiti</a></li>
+      <li><a href="#occupation">US Occupation</a></li>
+      <li><a href="#duvalier">The Duvalier Era</a></li>
+      <li><a href="#postduvalier">Post-Duvalier Struggle</a></li>
+      <li><a href="#modern">The Modern Crisis</a></li>
+      <li><a href="#today">Haiti Today</a></li>
+    </ol>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 1: Pre-Columbian                                -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="precolumbian">
+    <h2>I. Pre-Columbian Era</h2>
+    <div class="era-dates">c. 5000 BCE – 1492</div>
+
+    <p>
+      The island of <strong>Hispaniola</strong> — which Haiti shares with the Dominican Republic — was first inhabited
+      around <strong>5000 BCE</strong> by Archaic peoples migrating from Central or northern South America.
+      By <strong>300 BCE</strong>, farming villages had emerged.
+    </p>
+
+    <p>
+      By the 1st millennium CE, the <strong>Arawak-speaking Taíno</strong> had become the dominant group, joined by
+      the <strong>Ciboney</strong>. The island — called <strong>Quisqueya</strong> or <strong>Ayiti</strong>
+      ("land of high mountains" in Taíno) — was divided into five caciquedoms (chiefdoms):
+    </p>
+
+    <ul>
+      <li><strong>Marién</strong> — northwest, ruled by Guacanagarix</li>
+      <li><strong>Maguá</strong> — northeast, ruled by Guarionex</li>
+      <li><strong>Maguana</strong> — central, ruled by Caonabó</li>
+      <li><strong>Xaraguá</strong> — southwest, ruled by Bohechío (later Anacaona)</li>
+      <li><strong>Higüey</strong> — southeast, ruled by Cayacoa</li>
+    </ul>
+
+    <p>
+      The Taíno practiced cassava farming, fishing, and inter-island trade. They produced gold jewelry, woven cotton,
+      and pottery. Population estimates at the time of European contact range from <strong>100,000 to several million</strong>.
+      Their society was organized into hierarchical cacicazgos, with caciques (chiefs), nitainos (nobles), bohíques
+      (shamans/priests), and the naboria (commoners).
+    </p>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 2: Spanish Colonial                             -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="spanish">
+    <h2>II. Spanish Colonial Period</h2>
+    <div class="era-dates">1492 – 1697</div>
+
+    <h3>Columbus Arrives</h3>
+    <p>
+      On <strong>December 6, 1492</strong>, Christopher Columbus sighted the island and named it
+      <strong>La Isla Española</strong> ("The Spanish Island"), later Anglicized as Hispaniola.
+      On Christmas Day, his flagship the <em>Santa María</em> ran aground near present-day Cap-Haïtien.
+      Columbus left 39 men at <strong>La Navidad</strong> — the first European settlement in the Americas.
+      All were later killed after mistreating the Taíno.
+    </p>
+
+    <h3>Genocide and Encomienda</h3>
+    <p>
+      The Spanish enslaved the Taíno under the brutal <strong>encomienda</strong> system to mine for gold.
+      European diseases (especially the first recorded smallpox epidemic in the Americas, 1507) and forced
+      labor destroyed the Indigenous population with staggering speed:
+    </p>
+
+    <ul>
+      <li><strong>1492:</strong> Population estimated at 300,000 – 1,000,000+</li>
+      <li><strong>1514:</strong> ~30,000</li>
+      <li><strong>By 1600:</strong> Virtually extinct</li>
+    </ul>
+
+    <p>
+      The <strong>Laws of Burgos (1512–1513)</strong> nominally protected the Indigenous population
+      but were largely ignored. Thousands of enslaved people imported from other Caribbean islands met
+      the same fate.
+    </p>
+
+    <h3>Spanish Abandonment</h3>
+    <p>
+      As Spain shifted focus to Mexico and Peru, Hispaniola became a colonial backwater. The Spanish
+      largely abandoned the western third of the island, which became a haven for <strong>French
+      buccaneers</strong> based on <strong>Tortuga Island</strong> (Île de la Tortue) from the
+      mid-16th century onward.
+    </p>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 3: French Saint-Domingue                        -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="french">
+    <h2>III. French Colonial Rule — Saint-Domingue</h2>
+    <div class="era-dates">1697 – 1804</div>
+
+    <div class="highlight-box blue">
+      <p><strong>By the 1780s:</strong> Saint-Domingue produced 40% of France's foreign trade and generated
+      more wealth than all of England's colonies combined. It was called <em>"the Pearl of the Antilles."</em></p>
+    </div>
+
+    <p>
+      The <strong>Treaty of Ryswick (1697)</strong> formally ceded the western third of Hispaniola
+      from Spain to France, renamed <strong>Saint-Domingue</strong>. The French created vast sugar,
+      coffee, indigo, and cotton plantations worked by enslaved Africans. By the 1780s, the colony
+      supplied two-thirds of Europe's tropical produce.
+    </p>
+
+    <h3>The Population in 1789</h3>
+    <ul>
+      <li><strong>~500,000 enslaved Africans</strong> (field workers, artisans, domestics)</li>
+      <li><strong>~32,000 European colonists</strong> (grands blancs, petits blancs)</li>
+      <li><strong>~24,000 affranchis</strong> (free people of color, mostly biracial)</li>
+    </ul>
+
+    <h3>The Brutal System</h3>
+    <p>
+      Saint-Domingue was one of the most brutal slave colonies in history. Enslaved people endured
+      lengthy, backbreaking workdays and often died from injuries, infections, and tropical diseases.
+      Malnutrition and starvation were common. One-third of newly imported Africans died within a few years.
+      The <strong>Code Noir</strong> (Black Code) enacted by Louis XIV theoretically regulated treatment
+      but was applied savagely.
+    </p>
+
+    <p>
+      Many enslaved people escaped into mountains as <strong>Maroons</strong>, fighting guerrilla campaigns
+      against colonial militia. Large numbers found solace in <strong>Vodou</strong>, a syncretic religion
+      blending West African beliefs with Catholicism.
+    </p>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 4: The Haitian Revolution                       -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="revolution">
+    <h2>IV. The Haitian Revolution</h2>
+    <div class="era-dates">1791 – 1804 — <em>The only successful slave revolt in history</em></div>
+
+    <div class="highlight-box">
+      <div class="quote">
+        "The Haitian Revolution created the second independent country in the Americas after the United
+        States became independent in 1783. It was the first and only nation established by a slave revolt."
+      </div>
+      <div class="attribution">— US Office of the Historian</div>
+    </div>
+
+    <h3>Key Timeline</h3>
+    <ul class="timeline">
+      <li><span class="year">1790</span> — Vincent Ogé leads an affranchi uprising; captured and executed</li>
+      <li><span class="year">August 1791</span> — Massive slave uprising in the north; a Vodou ceremony at <strong>Bois Caïman</strong> is considered the revolution's starting point. <strong>Dutty Boukman</strong> leads the initial revolt</li>
+      <li><span class="year">1793</span> — French commissioner Léger Félicité Sonthonax abolishes slavery to gain Black allies</li>
+      <li><span class="year">1794</span> — France ratifies abolition</li>
+      <li><span class="year">1796–1801</span> — <strong>Toussaint Louverture</strong>, a military genius and former enslaved man, gains control and becomes governor-general for life</li>
+      <li><span class="year">1801</span> — Toussaint invades the eastern Spanish side, freeing enslaved people there</li>
+      <li><span class="year">1802</span> — Napoleon Bonaparte sends 60,000 troops under General Charles Leclerc to restore slavery; Toussaint is betrayed, captured, and dies in a French prison (April 7, 1803)</li>
+      <li><span class="year">1802–1803</span> — <strong>Jean-Jacques Dessalines</strong> and <strong>Henry Christophe</strong> lead the final resistance; yellow fever devastates the French army</li>
+      <li><span class="year">November 18, 1803</span> — French defeated at the <strong>Battle of Vertières</strong></li>
+      <li><span class="year">January 1, 1804</span> — Dessalines declares independence, renaming the country <strong>Haiti</strong> (the Taíno name)</li>
+    </ul>
+
+    <div class="highlight-box blue">
+      <p><strong>Significance:</strong> Haiti became the first independent Caribbean state, the second republic
+      in the Americas (after the US), the first country in the Americas to abolish slavery, and the only
+      nation in history established by a successful slave revolt.</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 5: Independent Haiti                            -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="independence">
+    <h2>V. Independent Haiti</h2>
+    <div class="era-dates">1804 – 1915</div>
+
+    <h3>Immediate Aftermath</h3>
+    <p>
+      The revolution devastated the economy — plantations were burned, infrastructure destroyed.
+      Haiti was diplomatically isolated, feared by slave-holding powers. The United States did
+      not recognize Haiti until <strong>1862</strong>.
+    </p>
+
+    <h3>The Independence Debt</h3>
+    <div class="highlight-box">
+      <div class="quote">
+        "On April 17, 1825, besieged by French warships, Haiti agreed to pay an indemnity of
+        150 million gold francs to France in exchange for diplomatic recognition."
+      </div>
+      <div class="attribution">— UN News, 2025</div>
+    </div>
+
+    <p>
+      This debt — later reduced to 90 million francs — was equivalent to Haiti's entire annual
+      revenue for decades. Haiti was forced to take loans from French banks at predatory rates.
+      Payments continued for <strong>122 years</strong>, finally ending in <strong>1947</strong>.
+      By some estimates, this cost Haiti the equivalent of <strong>$20–115 billion</strong> in
+      modern terms.
+    </p>
+
+    <h3>Political Chaos</h3>
+    <p>
+      The 19th century saw <strong>22 heads of state</strong> in 72 years, constant coups, revolts,
+      and instability. After Dessalines's assassination in 1806, the country split into the
+      northern Kingdom of Haiti under Henry Christophe and the southern Republic under Alexandre Pétion.
+      They reunited in 1820 under <strong>Jean-Pierre Boyer</strong>, who also united the entire
+      island (1822–1844) until the Dominican Republic gained independence.
+    </p>
+
+    <p>
+      <strong>Faustin Soulouque</strong> declared himself Emperor Faustin I (1849–1859) before the
+      return of the republic. Growing US economic influence through American businesses set the
+      stage for the next chapter.
+    </p>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 6: US Occupation                                -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="occupation">
+    <h2>VI. US Occupation</h2>
+    <div class="era-dates">1915 – 1934</div>
+
+    <p>
+      On <strong>July 28, 1915</strong>, US Marines landed in Haiti, beginning a <strong>19-year
+      occupation</strong>. The stated reason: restoring order after President Vilbrun Guillaume Sam
+      was assassinated. The real reasons included strategic control of the Caribbean (Panama Canal
+      security), protecting American investments, and countering German influence during WWI.
+    </p>
+
+    <h3>What the US Did</h3>
+    <ul>
+      <li>Dissolved the Haitian legislature and imposed martial law</li>
+      <li>Forced unpaid labor (<strong>corvée</strong>) for road-building — reminiscent of slavery</li>
+      <li>Seized control of customs houses, the national bank, and treasury</li>
+      <li>Rewrote the constitution (1918) to allow foreign land ownership — previously banned</li>
+      <li>Created the US-trained <strong>Garde d'Haïti</strong> (later used by Duvalier)</li>
+      <li>Introduced racial segregation unknown in Haiti</li>
+    </ul>
+
+    <p>
+      <strong>Charlemagne Péralte</strong> led a nationalist guerrilla resistance (the <strong>Cacos</strong>)
+      until his betrayal and assassination in 1919. An estimated 2,000–15,000 Haitians were killed
+      during the occupation.
+    </p>
+
+    <p>
+      President <strong>Franklin D. Roosevelt</strong> oversaw the withdrawal in <strong>1934</strong>,
+      leaving behind a US-trained military that would later enable the Duvalier dictatorship.
+    </p>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 7: Duvalier Era                                 -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="duvalier">
+    <h2>VII. The Duvalier Era</h2>
+    <div class="era-dates">1957 – 1986</div>
+
+    <h3>François "Papa Doc" Duvalier</h3>
+    <p>
+      Elected president in <strong>1957</strong>, Duvalier declared himself <strong>President for
+      Life</strong> in 1964. His regime created the <strong>Tonton Macoutes</strong> — a brutal
+      paramilitary force that terrorized opponents. Using Vodou symbolism to cultivate a mystique
+      of supernatural power, Duvalier crushed all political opposition through murder, exile, and
+      torture. Thousands were killed or "disappeared."
+    </p>
+
+    <h3>Jean-Claude "Baby Doc" Duvalier</h3>
+    <p>
+      Took power at age <strong>19</strong> upon his father's death in <strong>1971</strong>.
+      Slightly less brutal but massively corrupt: he embezzled millions in aid money while Haiti
+      remained the poorest country in the hemisphere. Growing international pressure and domestic
+      protests forced him to flee on <strong>February 7, 1986</strong> aboard a US Air Force plane,
+      taking an estimated <strong>$500 million</strong>.
+    </p>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 8: Post-Duvalier                                -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="postduvalier">
+    <h2>VIII. Post-Duvalier Struggle</h2>
+    <div class="era-dates">1986 – 2004</div>
+
+    <ul class="timeline">
+      <li><span class="year">1987</span> — New constitution drafted</li>
+      <li><span class="year">1990</span> — <strong>Jean-Bertrand Aristide</strong>, a populist priest, elected president with 67% of the vote</li>
+      <li><span class="year">September 1991</span> — Aristide overthrown in a military coup</li>
+      <li><span class="year">1991–1994</span> — Military junta; thousands killed; mass exodus of "boat people" to the US</li>
+      <li><span class="year">1994</span> — <strong>Operation Uphold Democracy</strong>: 20,000 US troops restore Aristide</li>
+      <li><span class="year">1996</span> — <strong>René Préval</strong> elected — first peaceful transfer of power</li>
+      <li><span class="year">2000</span> — Aristide returns amid disputed elections</li>
+      <li><span class="year">February 2004</span> — Aristide forced into exile amid armed rebellion</li>
+    </ul>
+
+    <div class="highlight-box blue">
+      <p><strong>UN Intervention (2004–2017):</strong> The UN Stabilisation Mission (MINUSTAH) deployed
+      over 9,000 troops and police to maintain order. The mission was later implicated in a cholera
+      outbreak that killed nearly 10,000.</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 9: Modern Crisis                                -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="modern">
+    <h2>IX. The Modern Crisis</h2>
+    <div class="era-dates">2004 – Present</div>
+
+    <h3>The 2010 Earthquake</h3>
+    <p>
+      On <strong>January 12, 2010</strong>, a <strong>7.0 magnitude earthquake</strong> struck near
+      Port-au-Prince — the deadliest natural disaster in the Western Hemisphere:
+    </p>
+
+    <ul>
+      <li><strong>100,000–316,000 killed</strong> (estimates vary)</li>
+      <li><strong>1.5 million</strong> left homeless</li>
+      <li><strong>$7.8 billion</strong> in damage (120% of GDP)</li>
+      <li>UN peacekeepers accidentally introduced <strong>cholera</strong>, killing nearly 10,000 and sickening 800,000+</li>
+    </ul>
+
+    <h3>The Cholera Outbreak</h3>
+    <div class="highlight-box gold">
+      <div class="quote">
+        "In 2010, UN peacekeepers from Nepal introduced cholera to Haiti through a faulty sanitation
+        system at their base. It became the world's worst cholera outbreak in modern history."
+      </div>
+    </div>
+
+    <h3>Assassination and Collapse (2021–Present)</h3>
+    <p>
+      On <strong>July 7, 2021</strong>, President <strong>Jovenel Moïse</strong> was assassinated
+      at his home by a group of mercenaries. The resulting political vacuum led to:
+    </p>
+
+    <ul>
+      <li>Gang takeover of much of Port-au-Prince (80%+ of the capital)</li>
+      <li>Mass kidnappings, murder, and sexual violence</li>
+      <li>Over <strong>1.3 million displaced</strong></li>
+      <li>No elected officials remaining (Senate expired; no elections since 2016)</li>
+      <li>Country described as a <strong>failed state</strong></li>
+    </ul>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 10: Haiti Today                                 -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <section id="today">
+    <h2>X. Haiti Today</h2>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="label">Population</div>
+        <div class="value">11.5 million</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Capital</div>
+        <div class="value">Port-au-Prince</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Languages</div>
+        <div class="value">Creole, French</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">GDP per capita</div>
+        <div class="value">$2,670</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">HDI Rank</div>
+        <div class="value">166th of 193</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Government</div>
+        <div class="value">Vacant</div>
+      </div>
+    </div>
+
+    <p>
+      Haiti is a founding member of the <strong>United Nations</strong>, <strong>Organization of American
+      States</strong>, <strong>CARICOM</strong>, and the <strong>Organisation internationale de la
+      Francophonie</strong>. It is also the most populous Caribbean country and the third largest
+      by area.
+    </p>
+
+    <div class="highlight-box">
+      <p><strong>Looking Forward:</strong> Haiti's trajectory has been shaped by five catastrophic
+      forces — the brutality of slavery, the crushing independence debt imposed by France, 19 years
+      of US military occupation, 29 years of Duvalier kleptocracy, and the devastating 2010 earthquake.
+      Each left the country less equipped to face the next. Yet Haiti's revolutionary founding —
+      the first and only successful slave revolt in human history — remains an enduring symbol of
+      the struggle for freedom and human dignity.</p>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <div class="footer">
+    <p>Compiled from Britannica, BBC, Wikipedia, UN News, and other historical sources.</p>
+    <p>🇭🇹 <strong>Ayiti</strong> — Land of High Mountains</p>
+    <p style="margin-top:8px; font-size:12px;">&copy; 2026 — <a href="https://pi.thealpha-secret.xyz" style="color:var(--haiti-blue);">The Ninth Prime</a></p>
+  </div>
+
+</div>
+</body>
+</html>
